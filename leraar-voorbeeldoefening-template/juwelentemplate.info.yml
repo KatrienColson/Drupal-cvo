@@ -1,0 +1,21 @@
+name: juwelentemplate
+type: theme
+description: "Dit is mijn eigen juwelentemplate"
+base theme: classy
+package: custom
+core: 8.x
+libraries: 
+  - juwelentemplate/global-styling
+  - juwelentemplate/global-js
+regions: 
+  branding: 'Branding regio'
+  navigatie: 'Navigatie'
+  indekijker1: 'Links in de kijker'
+  indekijker2: 'Midden in de kijker'
+  indekijker3: 'Rechts in de kijker'
+  content: 'Hoofdinhoud van de pagina'
+  sidebar: 'Zijbalk'
+  reclame: 'Reclame'
+  footer1: 'Footer links'
+  footer2: 'Footer midden'
+  footer3: 'Footer rechts'

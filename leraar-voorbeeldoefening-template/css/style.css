@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+h1, h2, h3{
+	font-family: Goldman;
+}
+
+h1{
+	color: #272F32;
+}
+
+h2{
+	color: #FF3D2E;
+}
+
+a{
+	color: #FF3D2E;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+header{
+	background: #DAEAEF;
+	padding: 10px 0;
+
+}
+
+
+footer{
+	background: #DAEAEF;
+	padding: 30px 0;
+	margin-top: 30px;
+}
+
+.maincontent, .indekijker{
+	padding: 30px 0;
+}
+
+.indekijker .block{
+	text-align: center;
+	border:1px solid #cecece;
+	padding: 10px;
+}
+
+.indekijker h2::after{
+	display: table;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	content: '';
+	width: 100px;
+	border-bottom: 1px solid #FF3D2E;
+}
+
+#block-winteractie{
+	background: #FF3D2E;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 30px 0;
+
+}
+
+#block-winteractie h2{
+	color: white;
+}
+
+#search-block-form{
+	border:1px solid #cecece;
+	padding: 20px;
+}

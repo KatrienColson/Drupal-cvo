@@ -1,0 +1,46 @@
+.maincontainer1 {
+  background-color: white;
+}
+.maincontainer2 {
+  background-color: rgb(216, 196, 171);
+}
+.maincontainer3 {
+  background-color: white;
+}
+.maincontainer4 {
+  background-color: rgb(129, 111, 89);
+}
+.maincontainer5 {
+  background-color: white;
+}
+.maincontainer6 {
+  background-color: rgb(27, 24, 20);
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container,
+.container2 {
+  padding: 50px;
+}
+.container2 {
+  color: white;
+}
+.header .logo {
+  width: 25%;
+  height: auto;
+  padding-left: 90px;
+  padding-top: 15px;
+}
+.box1 {
+  color: white;
+}
+.header {
+  background-color: rgb(27, 24, 20);
+}
+a.nav-link,
+a.navbar-brand {
+  color: white;
+}

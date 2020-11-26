@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Ubuntu:ital,wght@0,300;1,500&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+h1, h2, h3{
+	font-family: 'Raleway', sans-serif;
+}
+h1, h3{
+	color: #14455A;
+}
+a{
+	color: #D9362B;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+header{
+	/*background: #64D96E;*/
+	padding: 10px 0;
+}
+footer{
+	background: #64D96E;
+	padding: 30px 0;
+	margin-top: 30px;
+}
+.maincontent, .blok-van-3, .reclame{
+	padding: 50px 0;
+}
+.logo{
+	width:100px;
+	height: auto;
+}
+
+/*4 boxen net onder de header*/
+.blok-van-3{
+	text-align: center;
+	border:1px solid #cecece;
+	padding: 20px;
+	height: auto;
+}
+.foto1{
+	position: relative;
+	background-image: url("../img/hart.jpg");
+}
+.foto2{
+	position: relative;
+	background-image: url("../img/boom.jpg");
+}
+.tranparanteBox{
+	position: relative;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+}
+.foto1 > img,
+.foto2 > img, 
+.tekst1 {
+	position: relative;
+}
+.tekst1 {
+	padding: 15px 20px 5px 20px;
+	color: #000;
+}
+.foto1 h3,
+.foto2 h3{
+	color: #000;
+	padding-top: 15px;
+	font-weight: bolder;
+}
+
+/*2 zijboxen net naast de maincontainer*/
+.zijbalkBoven h3, 
+.zijbalkBoven p, 
+.zijbalkBoven img,
+.zijbalkOnder h3, 
+.zijbalkOnderp, 
+.zijbalkOnder img{
+	padding: 50px 2px 0px 5px;	
+}
+.zijbalkBoven{
+	position: relative;
+	float:left;
+	background-color: pink;
+	height: 500px;
+}
+
+.zijbalkOnder{
+	position: relative;
+	float:left;
+	background-color: grey;
+  	top:-40px;
+	right: 0;
+	height: 500px;
+}
+
+

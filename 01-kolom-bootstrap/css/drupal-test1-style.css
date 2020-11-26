@@ -1,0 +1,21 @@
+body {
+  color: white;
+}
+.header {
+  background-color: purple;
+}
+.maincontainer {
+  background-color: grey;
+}
+.footercontainer {
+  background-color: black;
+}
+ul {
+  list-style-type: none;
+}
+.titel {
+  font-weight: bold;
+}
+.lijst {
+  font-weight: bold;
+}

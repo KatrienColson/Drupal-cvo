@@ -1,0 +1,23 @@
+name: kunsternaartemplate
+type: theme
+description: "Dit is mijn eigen kunstenaartemplate"
+base theme: classy
+package: custom
+core: 8.x
+libraries:
+  - kunstenaartemplate/global-styling
+  - kunstenaartemplate/global-js
+regions:
+  branding: "Branding regio"
+  navigatie: "Navigatie"
+
+  content: "Hoofdinhoud van de pagina"
+  sidebar: "Zijbalk"
+  ondermainlinks: "Links onder main"
+  ondermainmidden: "Midden onder main"
+  ondermainrechts: "Rechts onder main"
+  reclame: "Reclame"
+  footer1: "Footer links"
+  footer2: "Footer midden"
+  footer3: "Footer rechts"
+  design: "design"
