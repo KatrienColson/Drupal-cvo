@@ -1,102 +1,128 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Ubuntu:ital,wght@0,300;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Ubuntu:ital,wght@0,300;1,500&display=swap");
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-h1, h2, h3{
-	font-family: 'Raleway', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(71, 160, 71);
 }
-h1, h3{
-	color: #14455A;
+h3 {
+  color: white;
 }
-a{
-	color: #D9362B;
+img {
+  width: 100%;
+  height: auto;
 }
-img{
-	width: 100%;
-	height: auto;
+header {
+  background: rgb(71, 160, 71);
+  padding: 10px 0;
 }
-header{
-	/*background: #64D96E;*/
-	padding: 10px 0;
+footer {
+  background: rgb(71, 160, 71);
+  padding: 30px 0;
+  margin-top: 30px;
 }
-footer{
-	background: #64D96E;
-	padding: 30px 0;
-	margin-top: 30px;
+.maincontent,
+.blok-van-3,
+.reclame {
+  padding: 50px 0;
 }
-.maincontent, .blok-van-3, .reclame{
-	padding: 50px 0;
+.logo-groen {
+  float: left;
+  width: 150px;
 }
-.logo{
-	width:100px;
-	height: auto;
+.logo-naam {
+  margin-bottom: 0;
+  font-size: 1rem;
 }
-
+.logo-naam2 {
+  font-size: 1.5rem;
+  color: white;
+}
+.navbar {
+  float: right;
+  font-size: 1.2rem;
+}
 /*4 boxen net onder de header*/
-.blok-van-3{
-	text-align: center;
-	border:1px solid #cecece;
-	padding: 20px;
-	height: auto;
+.blok-van-3 {
+  text-align: center;
+  padding: 20px;
+  height: auto;
 }
-.foto1{
-	position: relative;
-	background-image: url("../img/hart.jpg");
-}
-.foto2{
-	position: relative;
-	background-image: url("../img/boom.jpg");
-}
-.tranparanteBox{
-	position: relative;
-	margin: 30px;
-	background-color: #ffffff;
-	border: 1px solid black;
-	opacity: 0.6;
+/*.foto1 {
+  position: relative;
+  background-image: url("../img/hart.jpg");
+}*/
+/*.foto2 {
+  position: relative;
+  background-image: url("../img/boom.jpg");
+}*/
+.transparanteBox {
+  position: relative;
+  margin: 30px;
+  background-color: rgb(71, 160, 71);
+  border: 1px solid rgb(124, 124, 124);
+  opacity: 0.6;
 }
 .foto1 > img,
-.foto2 > img, 
+.foto2 > img,
 .tekst1 {
-	position: relative;
+  position: relative;
 }
 .tekst1 {
-	padding: 15px 20px 5px 20px;
-	color: #000;
+  padding: 15px 20px 5px 20px;
+  color: #000;
 }
 .foto1 h3,
-.foto2 h3{
-	color: #000;
-	padding-top: 15px;
-	font-weight: bolder;
+.foto2 h3 {
+  padding-top: 15px;
+  font-weight: bolder;
 }
-
+.lees-meer {
+  color: white;
+}
+.lees-meer:hover {
+  color: rgb(51, 48, 48);
+  text-decoration: none;
+}
 /*2 zijboxen net naast de maincontainer*/
-.zijbalkBoven h3, 
-.zijbalkBoven p, 
+.zijbalkBoven h3,
+.zijbalkBoven p,
 .zijbalkBoven img,
-.zijbalkOnder h3, 
-.zijbalkOnderp, 
-.zijbalkOnder img{
-	padding: 50px 2px 0px 5px;	
+.zijbalkOnder h3,
+.zijbalkOnderp,
+.zijbalkOnder img {
+  padding: 50px 2px 0px 5px;
 }
-.zijbalkBoven{
-	position: relative;
-	float:left;
-	background-color: pink;
-	height: 500px;
+.zijbalkBoven {
+  position: relative;
+  float: left;
+  background-color: #c1e1c1;
+  height: 500px;
 }
-
-.zijbalkOnder{
-	position: relative;
-	float:left;
-	background-color: grey;
-  	top:-40px;
-	right: 0;
-	height: 500px;
+.zijbalkOnder {
+  position: relative;
+  float: left;
+  background-color: grey;
+  top: -40px;
+  right: 0;
+  height: 500px;
 }
-
-
+.reclame {
+  width: 100%;
+}
+.reclame q {
+  font-size: 2rem;
+  background-color: #c1e1c1;
+  width: 100%;
+  margin: 2rem 8rem;
+  padding: 1rem;
+  border-left: 0.5rem solid #74aa74;
+  color: #74aa74;
+  font-style: italic;
+}
