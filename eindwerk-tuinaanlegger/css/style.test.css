@@ -29,6 +29,7 @@ header{
     float: left;
     width: 150px;
 }
+
 .logo-naam {
     margin-bottom: 0;
     font-size: 1rem;
@@ -41,17 +42,18 @@ header{
     font-family: 'Caveat', cursive;
 }
 /*header navbar*/
-.navbar {
-    float: right;
+/*.navbar {
+   
     font-size: 1.2rem;
-    margin-top: 90px;
+ 
 }
-.navbar-nav a{
+.navbar .navbar-expand-lg .navbar-light{
     color: white;
 }
 .navbar-nav a:hover{
     color:  grey;
-    }
+    }*/
+   
 /*eerste 3 kolommen bovenaan*/
 .blok-van-3 .achtergrond{
     position: relative;
