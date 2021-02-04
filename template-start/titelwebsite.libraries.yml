@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css: {type: external, minified: true}
+      css/style.css: {}
+global-js:
+  js: 
+    https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js: {type: external, minified: true}
+    js/main.js: {}

@@ -1,0 +1,12 @@
+name: titelwebsite
+type: theme
+description: "Mijn titelwebsite"
+base theme: classy
+package: custom
+core_version_requirement: 9.x
+libraries: 
+   - titelwebsite/global-styling
+   - titelwebsite/global-js
+regions:
+  content: "Hoofdinhoud van de pagina"   
+  sidebar: "Zijbalk"
